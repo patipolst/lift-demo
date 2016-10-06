@@ -14,7 +14,8 @@ libraryDependencies ++= Seq(
   "com.h2database"        % "h2"                      % "1.4.191",
   "org.specs2"            %% "specs2-core"            % "3.8.5"   % "test",
   "com.typesafe.akka"     %% "akka-actor"             % "2.4.4",
-  "com.typesafe.akka"     %% "akka-http-experimental" % "2.4.4"
+  "com.typesafe.akka"     %% "akka-http-experimental" % "2.4.4",
+  "io.igl"                %% "jwt"                    % "1.2.0"
 )
 
 scalacOptions in Test ++= Seq("-Yrangepos")
